@@ -2,7 +2,7 @@
   "name": "mosaikr",
   "version": "0.1.0",
   "description": "Create a mosaic from a list of images",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "build": "npm run build:code && npm run build:docs",
     "build:code": "rimraf lib && tsc",
@@ -26,6 +26,7 @@
     "name": "danikaze",
     "email": "danikaze@gmail.com"
   },
+  "private": true,
   "license": "ISC",
   "devDependencies": {
     "@types/sharp": "^0.21.0",
