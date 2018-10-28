@@ -4,7 +4,7 @@
   "description": "Create a mosaic from a list of images",
   "main": "index.js",
   "scripts": {
-    "build": "npm run build:code && npm run build:docs",
+    "build": "npm run build:code && ./scripts/prepub.sh && npm run build:docs",
     "build:code": "rimraf lib && tsc",
     "build:docs": "rimraf docs && typedoc ./src",
     "clean": "rimraf lib docs",
