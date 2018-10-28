@@ -1,4 +1,4 @@
-[mosaikr 0.0.1](../README.md) > ["index"](../modules/_index_.md)
+[mosaikr 0.1.0](../README.md) > ["index"](../modules/_index_.md)
 
 # External module: "index"
 
@@ -22,7 +22,7 @@
 
 ▸ **mosaikr**(options: *[MosaikrOptions](../interfaces/_index_.mosaikroptions.md)*): `Promise`< `void` &#124; `Sharp`>
 
-*Defined in index.ts:49*
+*Defined in [index.ts:49](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L49)*
 
 Create a mosaic of images
 *__example__*: // this will create a 3x2 grid where each image is 200x200px mosaikr({ input: \['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg'\], columns: 3, rows: 2, width: 600, height: 400, output: 'mosaic.jpg', });

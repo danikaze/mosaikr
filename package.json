@@ -1,6 +1,6 @@
 {
   "name": "mosaikr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Create a mosaic from a list of images",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,5 @@
 
-#  mosaikr 0.0.1
+#  mosaikr 0.1.0
 
 ## Index
 

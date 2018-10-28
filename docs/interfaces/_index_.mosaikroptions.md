@@ -1,4 +1,4 @@
-[mosaikr 0.0.1](../README.md) > ["index"](../modules/_index_.md) > [MosaikrOptions](../interfaces/_index_.mosaikroptions.md)
+[mosaikr 0.1.0](../README.md) > ["index"](../modules/_index_.md) > [MosaikrOptions](../interfaces/_index_.mosaikroptions.md)
 
 # Interface: MosaikrOptions
 
@@ -30,7 +30,7 @@
 
 **● columns**: *`number`*
 
-*Defined in index.ts:14*
+*Defined in [index.ts:14](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L14)*
 
 Number of columns of the mosaic
 
@@ -41,7 +41,7 @@ ___
 
 **● fit**: *`keyof FitEnum`*
 
-*Defined in index.ts:20*
+*Defined in [index.ts:20](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L20)*
 
 How the image should be resized to fit both provided dimensions
 
@@ -53,7 +53,7 @@ ___
 **● format**: * "jpeg" &#124; "png" &#124; "webp" &#124; "tiff"
 *
 
-*Defined in index.ts:22*
+*Defined in [index.ts:22](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L22)*
 
 Format of the output image
 
@@ -65,7 +65,7 @@ ___
 **● formatOptions**: * `JpegOptions` &#124; `PngOptions` &#124; `WebpOptions` &#124; `TiffOptions`
 *
 
-*Defined in index.ts:24*
+*Defined in [index.ts:24](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L24)*
 
 Format options
 
@@ -76,7 +76,7 @@ ___
 
 **● height**: *`number`*
 
-*Defined in index.ts:12*
+*Defined in [index.ts:12](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L12)*
 
 Height of the resulting image in px
 
@@ -87,7 +87,7 @@ ___
 
 **● input**: *`string`[]*
 
-*Defined in index.ts:8*
+*Defined in [index.ts:8](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L8)*
 
 Paths to the list of photos to use (in that order). Needs to have `columns * rows` elements
 
@@ -98,7 +98,7 @@ ___
 
 **● output**: *`string`*
 
-*Defined in index.ts:18*
+*Defined in [index.ts:18](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L18)*
 
 Path to output the result img. If not specified, will return the `Sharp` object
 
@@ -109,7 +109,7 @@ ___
 
 **● rows**: *`number`*
 
-*Defined in index.ts:16*
+*Defined in [index.ts:16](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L16)*
 
 Number of rows of the mosaic
 
@@ -120,7 +120,7 @@ ___
 
 **● width**: *`number`*
 
-*Defined in index.ts:10*
+*Defined in [index.ts:10](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/index.ts#L10)*
 
 Width of the resulting image in px
 

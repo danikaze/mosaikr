@@ -65,10 +65,10 @@ export async function mosaikr(options: MosaikrOptions): Promise<void | sharp.Sha
     let top = 0;
     let imgIndex = 0;
 
-    for (let j = 0; j < opt.columns; j++) {
+    for (let j = 0; j < opt.rows; j++) {
       left = 0;
       const h = hs[j];
-      for (let i = 0; i < opt.rows; i++) {
+      for (let i = 0; i < opt.columns; i++) {
         const w = ws[i];
         const img = sharp(opt.input[imgIndex++]);
         img.resize(w, h, { fit: opt.fit });
