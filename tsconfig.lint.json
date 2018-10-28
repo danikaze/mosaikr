@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "module": "ES6",
+    "moduleResolution": "node",
+    "target": "ES6"
+  },
+  "include": [
+   "src/*.ts",
+   "t2est/*.ts"
+ ]
+}
