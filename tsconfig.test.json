@@ -4,19 +4,19 @@
     "declaration": true,
     "noImplicitAny": true,
     "noUnusedLocals": true,
-    "module": "ES6",
+    "module": "commonjs",
     "moduleResolution": "node",
-    "outDir": "./lib/",
+    "outDir": "./build/",
     "removeComments": true,
     "sourceMap": true,
-    "target": "es6",
+    "target": "es5",
     "lib": [
       "es2017",
       "dom",
       "scripthost"
-    ],
+    ]
   },
   "include": [
-    "src/*.ts"
+    "test/*.ts"
   ]
 }

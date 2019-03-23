@@ -6,7 +6,7 @@
     "noUnusedLocals": true,
     "module": "ES6",
     "moduleResolution": "node",
-    "target": "ES6"
+    "target": "ES6",
   },
   "include": [
    "src/*.ts",

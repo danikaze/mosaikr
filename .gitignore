@@ -6,6 +6,7 @@
 .vscode/*
 src/.vscode/*
 node_modules
+build
 lib
 coverage
 .nyc_output

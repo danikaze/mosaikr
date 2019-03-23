@@ -1,4 +1,4 @@
-[mosaikr 0.1.0](../README.md) > ["composite"](../modules/_composite_.md)
+[mosaikr 0.1.1](../README.md) > ["composite"](../modules/_composite_.md)
 
 # External module: "composite"
 
@@ -18,7 +18,7 @@
 
 ▸ **composite**(src: *`Sharp`*, dst: *`Sharp`*, top: *`number`*, left: *`number`*): `Promise`<`Sharp`>
 
-*Defined in [composite.ts:12](https://github.com/danikaze/mosaikr/blob/f3dbc6e/src/composite.ts#L12)*
+*Defined in [composite.ts:12](https://github.com/danikaze/mosaikr/blob/679c260/src/composite.ts#L12)*
 
 Paste an image `src` onto another image `dst`.
 
